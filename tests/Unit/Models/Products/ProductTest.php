@@ -6,6 +6,7 @@ use App\Cart\Money;
 use App\Models\Category;
 use App\Models\Product;
 use App\Models\ProductVariation;
+use App\Models\Stock;
 use Tests\TestCase;
 
 
@@ -56,5 +57,35 @@ class ProductTest extends TestCase
         ]);
 
         $this->assertEquals($product->formattedPrice, '₦20.00');
+    }
+
+    public function test_it_can_count_number_of_product_in_stock()
+    {
+        $product = factory(Product::class)->create();
+        $product_variation = factory(ProductVariation::class)->create([
+            'product_id' => $product->id
+        ]);
+        $product_variation->stocks()->save(
+            factory(Stock::class)->create([
+                'quantity' => $quantity = 5
+            ])
+        );
+
+        $this->assertEquals($product->stockCount(), $quantity);
+    }
+
+    public function test_it_can_check_if_a_product_is_in_stock()
+    {
+        $product = factory(Product::class)->create();
+        $product_variation = factory(ProductVariation::class)->create([
+            'product_id' => $product->id
+        ]);
+        $product_variation->stocks()->save(
+            factory(Stock::class)->create([
+                'quantity' => $quantity = 5
+            ])
+        );
+
+        $this->assertTrue($product->inStock());
     }
 }
