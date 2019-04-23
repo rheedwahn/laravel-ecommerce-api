@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33beb64f-46ba-4040-923f-f332a7b04f5c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Cart/Cart.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/TestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/TestCase.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Cart/Cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Cart/Cart.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Cart/CartController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Cart/CartController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Unit/Cart/CartTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/Cart/CartTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +53,7 @@
           <entry key=".env file" value="10" />
           <entry key="JSON" value="2" />
           <entry key="JavaScript" value="2" />
-          <entry key="PHP" value="177" />
+          <entry key="PHP" value="182" />
           <entry key="XML" value="4" />
         </counts>
       </usages-collector>
@@ -65,7 +61,7 @@
         <counts>
           <entry key=".env file" value="61" />
           <entry key="JSON" value="5" />
-          <entry key="PHP" value="15788" />
+          <entry key="PHP" value="16335" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="XML" value="29" />
         </counts>
@@ -86,8 +82,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Cart/CartController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+            <state relative-caret-position="195">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
               <folding>
                 <element signature="e#45#63#0#PHP" expanded="true" />
               </folding>
@@ -96,45 +92,33 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Cart/Cart.php">
+        <entry file="file://$PROJECT_DIR$/tests/Feature/Cart/CartIndexTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/Unit/Cart/CartTest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="82" selection-start-line="82" selection-end-line="82" />
+            <state relative-caret-position="76">
+              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
               <folding>
-                <element signature="e#35#53#0#PHP" expanded="true" />
+                <element signature="e#38#70#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/Feature/Cart/CartDestroyTest.php">
+        <entry file="file://$PROJECT_DIR$/app/Http/Resources/Cart/CartResource.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="34" column="50" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
-              <folding>
-                <element signature="e#38#70#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="225">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/Feature/Cart/CartUpdateTest.php">
+        <entry file="file://$PROJECT_DIR$/app/Http/Resources/Cart/CartProductVariationResource.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="59" column="8" selection-start-line="59" selection-start-column="8" selection-end-line="61" selection-end-column="11" />
+            <state relative-caret-position="330">
+              <caret line="22" column="42" lean-forward="true" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
               <folding>
-                <element signature="e#38#70#0#PHP" expanded="true" />
+                <element signature="e#43#62#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -153,9 +137,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/database/migrations/2019_02_16_071331_create_product_variations_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_02_16_081330_create_product_variation_types_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_02_16_081448_add_product_variation_type_id_to_product_variations_table.php" />
         <option value="$PROJECT_DIR$/app/Http/Resources/Products/ProductResource.php" />
         <option value="$PROJECT_DIR$/database/factories/ProductVariationTypeFactory.php" />
         <option value="$PROJECT_DIR$/database/factories/ProductVariationFactory.php" />
@@ -200,10 +181,13 @@
         <option value="$PROJECT_DIR$/routes/api.php" />
         <option value="$PROJECT_DIR$/app/Http/Requests/UpdateQuantityRequest.php" />
         <option value="$PROJECT_DIR$/tests/Feature/Cart/CartUpdateTest.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Cart/CartController.php" />
+        <option value="$PROJECT_DIR$/tests/Feature/Cart/CartDestroyTest.php" />
         <option value="$PROJECT_DIR$/app/Cart/Cart.php" />
         <option value="$PROJECT_DIR$/tests/Unit/Cart/CartTest.php" />
-        <option value="$PROJECT_DIR$/tests/Feature/Cart/CartDestroyTest.php" />
+        <option value="$PROJECT_DIR$/app/Http/Resources/Cart/CartProductVariationResource.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Cart/CartController.php" />
+        <option value="$PROJECT_DIR$/tests/Feature/Cart/CartIndexTest.php" />
+        <option value="$PROJECT_DIR$/app/Http/Resources/Cart/CartResource.php" />
       </list>
     </option>
   </component>
@@ -366,6 +350,24 @@
               <item name="database" type="462c0819:PsiDirectoryNode" />
               <item name="factories" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="cart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cart" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cart" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="Feature" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cart" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="Feature" type="462c0819:PsiDirectoryNode" />
+              <item name="Cart" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -374,7 +376,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="CartUp&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/tests/Feature/Cart/CartUpdateTest.php&#10;CartDes&#9;null&#9;null&#10;CartTe&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/tests/Unit/Cart/CartTest.php&#10;CartContr&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/app/Http/Controllers/Cart/CartController.php&#10;CartStor&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/tests/Feature/Cart/CartStoreTest.php&#10;CartUpda&#9;null&#9;null&#10;CartTes&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/tests/Unit/Cart/CartTest.php&#10;UpdateQua&#9;null&#9;null&#10;CartCon&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/app/Http/Controllers/Cart/CartController.php&#10;Cart&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/app/Cart/Cart.php&#10;ap&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/routes/api.php&#10;cartSt&#9;null&#9;null&#10;CartTest&#9;null&#9;null&#10;AppSer&#9;null&#9;null&#10;api&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/routes/api.php&#10;create&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/database/migrations/2019_04_21_080738_create_cart_user_table.php&#10;.env&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/.env&#10;UserTe&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/tests/Unit/Models/User/UserTest.php&#10;create_car&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/database/migrations/2019_04_21_080738_create_cart_user_table.php&#10;User&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/app/Models/User.php&#10;Me&#9;null&#9;null&#10;login&#9;null&#9;null&#10;Login&#9;null&#9;null&#10;Regis&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/app/Http/Requests/Auth/RegisterRequest.php&#10;UserFac&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/database/factories/UserFactory.php&#10;reg&#9;null&#9;null&#10;Register&#9;null&#9;null&#10;config/aut&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/config/auth.php&#10;Com&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/composer.json&#10;profi&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/app/Http/Middleware/ProfileJsonResponse.php&#10;productcon&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/app/Http/Controllers/Products/ProductController.php&#10;Profile&#9;null&#9;null&#10;Kerne&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/app/Http/Kernel.php&#10;ProductIn&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/app/Http/Resources/Products/ProductIndexResource.php&#10;Product&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/tests/Unit/Models/Products/ProductVariationTest.php&#10;ProductTe&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/tests/Unit/Models/Products/ProductTest.php&#10;Produ&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/app/Models/Product.php&#10;ProductVari&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/app/Http/Resources/Products/ProductVariationResource.php&#10;product_var&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/database/migrations/2019_02_16_231413_create_product_variation_stock_view.php&#10;product_vari&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/database/migrations/2019_02_16_224139_create_product_variation_order_table.php&#10;order&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/database/migrations/2019_02_16_223724_create_orders_table.php&#10;stock&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/database/migrations/2019_02_16_221730_create_stocks_table.php&#10;productV&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/tests/Unit/Models/Products/ProductVariationTest.php&#10;Produc&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/app/Http/Resources/Products/ProductVariationResource.php&#10;ProductVar&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/app/Models/ProductVariation.php&#10;product&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/app/Models/Product.php&#10;ProductTest&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/tests/Unit/Models/Products/ProductTest.php&#10;Prod&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/app/Models/Product.php&#10;ProductVaria&#9;null&#9;null&#10;ProductVariationFac&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/database/factories/ProductVariationTypeFactory.php" />
+    <property name="SearchEverywhereHistoryKey" value="CartInde&#9;null&#9;null&#10;Cart&#9;null&#9;null&#10;CartTes&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/tests/Unit/Cart/CartTest.php&#10;CartUp&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/tests/Feature/Cart/CartUpdateTest.php&#10;CartDes&#9;null&#9;null&#10;CartTe&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/tests/Unit/Cart/CartTest.php&#10;CartContr&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/app/Http/Controllers/Cart/CartController.php&#10;CartStor&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/tests/Feature/Cart/CartStoreTest.php&#10;CartUpda&#9;null&#9;null&#10;UpdateQua&#9;null&#9;null&#10;CartCon&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/app/Http/Controllers/Cart/CartController.php&#10;ap&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/routes/api.php&#10;cartSt&#9;null&#9;null&#10;CartTest&#9;null&#9;null&#10;AppSer&#9;null&#9;null&#10;api&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/routes/api.php&#10;create&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/database/migrations/2019_04_21_080738_create_cart_user_table.php&#10;.env&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/.env&#10;UserTe&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/tests/Unit/Models/User/UserTest.php&#10;create_car&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/database/migrations/2019_04_21_080738_create_cart_user_table.php&#10;User&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/app/Models/User.php&#10;Me&#9;null&#9;null&#10;login&#9;null&#9;null&#10;Login&#9;null&#9;null&#10;Regis&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/app/Http/Requests/Auth/RegisterRequest.php&#10;UserFac&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/database/factories/UserFactory.php&#10;reg&#9;null&#9;null&#10;Register&#9;null&#9;null&#10;config/aut&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/config/auth.php&#10;Com&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/composer.json&#10;profi&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/app/Http/Middleware/ProfileJsonResponse.php&#10;productcon&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/app/Http/Controllers/Products/ProductController.php&#10;Profile&#9;null&#9;null&#10;Kerne&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/app/Http/Kernel.php&#10;ProductIn&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/app/Http/Resources/Products/ProductIndexResource.php&#10;Product&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/tests/Unit/Models/Products/ProductVariationTest.php&#10;ProductTe&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/tests/Unit/Models/Products/ProductTest.php&#10;Produ&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/app/Models/Product.php&#10;ProductVari&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/app/Http/Resources/Products/ProductVariationResource.php&#10;product_var&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/database/migrations/2019_02_16_231413_create_product_variation_stock_view.php&#10;product_vari&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/database/migrations/2019_02_16_224139_create_product_variation_order_table.php&#10;order&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/database/migrations/2019_02_16_223724_create_orders_table.php&#10;stock&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/database/migrations/2019_02_16_221730_create_stocks_table.php&#10;productV&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/tests/Unit/Models/Products/ProductVariationTest.php&#10;Produc&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/app/Http/Resources/Products/ProductVariationResource.php&#10;ProductVar&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/app/Models/ProductVariation.php&#10;product&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/app/Models/Product.php&#10;ProductTest&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/tests/Unit/Models/Products/ProductTest.php&#10;Prod&#9;FILE&#9;file:///Users/ridwan/Sites/Homestead/cart/app/Models/Product.php&#10;ProductVaria&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -424,12 +426,12 @@
       <workItem from="1552514965693" duration="1000000" />
       <workItem from="1553605038616" duration="29000" />
       <workItem from="1555781723700" duration="7363000" />
-      <workItem from="1555830505045" duration="9749000" />
+      <workItem from="1555830505045" duration="12081000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61468000" />
+    <option name="totallyTimeSpent" value="63800000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -442,8 +444,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4993804" visible="true" weight="0.19456366" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4993804" visible="true" weight="0.19456366" />
       <window_info id="Structure" order="1" sideWeight="0.5006196" side_tool="true" weight="0.1702432" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -458,7 +461,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32713756" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32713756" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -472,27 +475,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/intl/intl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12975">
-          <caret line="877" column="36" selection-start-line="877" selection-start-column="36" selection-end-line="877" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Traits/HasPrice.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/moneyphp/money/src/Money.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="197" column="20" selection-start-line="197" selection-start-column="20" selection-end-line="197" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2019_02_16_221730_create_stocks_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -610,6 +592,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding>
+            <element signature="e#28#63#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -806,43 +791,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Cart/Cart.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Unit/Cart/CartTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="82" selection-start-line="82" selection-end-line="82" />
-          <folding>
-            <element signature="e#35#53#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Cart/CartController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-          <folding>
-            <element signature="e#45#63#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Feature/Cart/CartUpdateTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="59" column="8" selection-start-line="59" selection-start-column="8" selection-end-line="61" selection-end-column="11" />
-          <folding>
-            <element signature="e#38#70#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/Feature/Cart/CartDestroyTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="439">
@@ -850,6 +798,70 @@
           <folding>
             <element signature="e#38#70#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Unit/Cart/CartTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="89" column="65" lean-forward="true" selection-start-line="89" selection-start-column="65" selection-end-line="89" selection-end-column="65" />
+          <folding>
+            <element signature="e#35#53#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Cart/Cart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/Cart/CartUpdateTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="e#38#70#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Cart/CartController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="e#45#63#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/Cart/CartIndexTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding>
+            <element signature="e#38#70#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Resources/Cart/CartProductVariationResource.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="42" lean-forward="true" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+          <folding>
+            <element signature="e#43#62#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Resources/Cart/CartResource.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
         </state>
       </provider>
     </entry>

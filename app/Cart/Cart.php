@@ -30,6 +30,11 @@ class Cart
         $this->user->cart()->detach($product_id);
     }
 
+    public function empty()
+    {
+        $this->user->cart()->detach();
+    }
+
     private function getStorePayload($products)
     {
         return collect($products)->keyBy('id')->map(function ($product) {
