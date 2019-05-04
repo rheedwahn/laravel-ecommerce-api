@@ -2,6 +2,7 @@
 
 namespace Tests\Unit\Models\User;
 
+use App\Models\Address;
 use App\Models\ProductVariation;
 use App\Models\User;
 use Tests\TestCase;
@@ -34,5 +35,14 @@ class UserTest extends TestCase
             ]
         );
         $this->assertEquals($user->cart->first()->pivot->quantity, 6);
+    }
+
+    public function test_it_has_many_addresses()
+    {
+        $user = factory(User::class)->create();
+        factory(Address::class, 4)->create([
+            'user_id' => $user->id
+        ]);
+        $this->assertEquals($user->addresses()->count(), 4);
     }
 }
