@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http\Resources;
+namespace App\Http\Resources\Address;
 
 use Illuminate\Http\Resources\Json\JsonResource;
 
-class AddressResource extends JsonResource
+class ShippingMethodResource extends JsonResource
 {
     /**
      * Transform the resource into an array.
@@ -15,12 +15,8 @@ class AddressResource extends JsonResource
     public function toArray($request)
     {
         return [
-            'id' => $this->id,
             'name' => $this->name,
-            'address_line_1' => $this->address_1,
-            'city' => $this->city,
-            'postal_code' => $this->postal_code,
-            'country' => new CountryResource($this->country)
+            'price' => $this->formattedPrice
         ];
     }
 }

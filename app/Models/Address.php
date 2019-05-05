@@ -21,7 +21,6 @@ class Address extends Model
                 ]);
             }
         });
-
     }
 
     public function setDefaultAttribute($value)
@@ -32,6 +31,22 @@ class Address extends Model
     public function user()
     {
         return $this->belongsTo(User::class);
+    }
+
+    public function switchToDefault($address_id)
+    {
+        $address = $this->user->addresses()->find($address_id);
+        $address->user->addresses()->update([
+            'default' => false
+        ]);
+        $address->default = true;
+        $address->save();
+        return $address;
+    }
+
+    public function deleteAddress($address_id)
+    {
+        return $this->user->addresses()->find($address_id)->delete() ? true : false;
     }
 
     public function country()

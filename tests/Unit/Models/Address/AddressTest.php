@@ -38,4 +38,31 @@ class AddressTest extends TestCase
 
         $this->assertFalse($old_default_address->fresh()->default);
     }
+
+    public function test_it_can_delete_an_address()
+    {
+        $user = factory(User::class)->create();
+        $address = factory(Address::class)->create([
+            'user_id' => $user->id
+        ]);
+
+        $this->assertTrue($address->deleteAddress($address->id));
+    }
+
+    public function test_it_can_update_to_default_address()
+    {
+        $user = factory(User::class)->create();
+
+        $address_2 = factory(Address::class)->create([
+            'user_id' => $user->id,
+            'default' => false
+        ]);
+
+        $address_2->switchToDefault($address_2->id);
+
+        $this->assertDatabaseHas('addresses', [
+            'id' => $address_2->id,
+            'default' => true
+        ]);
+    }
 }
